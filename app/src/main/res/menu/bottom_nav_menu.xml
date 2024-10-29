@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/plantsListFragment"
+        android:title="Список растений"
+        android:icon="@drawable/ic_list" />
+    <item
+        android:id="@+id/plantDetailsFragment"
+        android:title="Детали растения"
+        android:icon="@drawable/ic_details" />
+<!--    <item-->
+<!--        android:id="@+id/aboutPlantsFragment"-->
+<!--        android:title="О растениях"-->
+<!--        android:icon="@drawable/ic_about" />-->
+    <item
+        android:id="@+id/plantDatabaseFragment"
+        android:title="Plant Database"
+        android:icon="@drawable/ic_aaa"/>
+    <item
+        android:id="@+id/addPlantFragment"
+        android:title="Доб. растение"
+        android:icon="@drawable/ic_bbb"/>
+    <item
+        android:id="@+id/imageDownloadFragment"
+        android:title="Загрузка изображения"
+        android:icon="@drawable/ic_img"/>
+
+</menu>

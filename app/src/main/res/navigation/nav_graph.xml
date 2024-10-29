@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/plantsListFragment">
+
+    <fragment
+        android:id="@+id/plantsListFragment"
+        android:name="com.example.pr4ma.PlantsListFragment"
+        android:label="Список растений" />
+
+    <fragment
+        android:id="@+id/plantDetailsFragment"
+        android:name="com.example.pr4ma.PlantDetailsFragment"
+        android:label="Детали растения" />
+
+    <fragment
+        android:id="@+id/aboutPlantsFragment"
+        android:name="com.example.pr4ma.AboutPlantsFragment"
+        android:label="О растениях" />
+
+    <fragment
+        android:id="@+id/plantDatabaseFragment"
+        android:name="com.example.pr4ma.PlantDatabaseFragment"
+        android:label="БД" />
+
+    <fragment
+        android:id="@+id/addPlantFragment"
+        android:name="com.example.pr4ma.AddPlantFragment"
+        android:label="Добавить растение" />
+
+    <fragment
+        android:id="@+id/imageDownloadFragment"
+        android:name="com.example.pr4ma.ImageDownloadFragment"
+        android:label="Image Download Fragment"
+        tools:layout="@layout/fragment_image_download" />
+
+
+
+</navigation>
